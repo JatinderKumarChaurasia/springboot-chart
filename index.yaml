@@ -1,14 +1,25 @@
 apiVersion: v1
 entries:
+  builder:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-04-09T19:14:20.105003+05:30"
+    description: A Helm chart for Kubernetes
+    digest: cf32ce817b1e50234cc3bacac1b58ce5a56edb342c752f481dbbb3b6d5a18552
+    name: builder
+    type: application
+    urls:
+    - https://github.com/JatinderKumarChaurasia/springboot-chart/build/builder-0.1.0.tgz
+    version: 0.1.0
   springboot:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2022-04-09T14:01:54.437631+05:30"
+    appVersion: 1.0.0
+    created: "2022-04-09T19:14:20.105444+05:30"
     description: A Helm chart for Kubernetes
-    digest: eaea7ac3e6220624a1a6ee1ffa630ac087902da40175f3b0682bdec95b45eee4
+    digest: 647a2ebe94486f3a35d216a6ea1703d503b2d875310bd5ef99bf7779c12b1754
     name: springboot
     type: application
     urls:
-    - https://jatinderkumarchaurasia.github.io/springboot-chart/springboot-0.1.0.tgz
+    - https://github.com/JatinderKumarChaurasia/springboot-chart/build/springboot-0.1.0.tgz
     version: 0.1.0
-generated: "2022-04-09T14:01:54.436993+05:30"
+generated: "2022-04-09T19:14:20.104527+05:30"
